@@ -12,6 +12,8 @@ import { BarChartComponent } from './bar-chart/bar-chart.component';
 import { PieChartComponent } from './pie-chart/pie-chart.component';
 import { BoxplotComponent } from './boxplot/boxplot.component';
 import { HistogramchartComponent } from './histogramchart/histogramchart.component';
+import { ThemeSwitcherComponent } from './theme-switcher/theme-switcher.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 PlotlyModule.plotlyjs = PlotlyJS;
 
@@ -24,7 +26,9 @@ PlotlyModule.plotlyjs = PlotlyJS;
     BarChartComponent,
     PieChartComponent,
     BoxplotComponent,
-    HistogramchartComponent
+    HistogramchartComponent,
+    ThemeSwitcherComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,

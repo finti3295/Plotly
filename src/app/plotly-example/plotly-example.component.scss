@@ -1,11 +1,2 @@
-.foo {
-    color: red;
-  
-    &:hover {
-      color: green;
-    }
-  
-    &::after {
-        content: " (" attr(href) ")";
-      }
-  }
+
+

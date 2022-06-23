@@ -31,10 +31,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles/styles.scss"
-             
+              "src/styles/styles.scss",
+              {
+                "input": "src/styles/light.scss",
+                "bundleName": "light",
+                "inject": true
+            },
+            {
+                "input": "src/styles/dark.scss",
+                "bundleName": "dark",
+                "inject": false
+            }
             ],
-            "scripts": []
+            "scripts": [
+         
+            ]
           },
           "configurations": {
             "production": {
