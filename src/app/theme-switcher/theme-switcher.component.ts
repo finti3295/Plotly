@@ -13,6 +13,10 @@ export class ThemeSwitcherComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  handleInputChange(event:any) {
+    console.log("handleInputChange "+this.theme.current);
+    this.switchTheme();
+  }
   public switchTheme(): void {
     if (this.theme.current === 'light') {
         this.theme.current = 'dark';
